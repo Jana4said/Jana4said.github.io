@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gana Said | Portfolio</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #a34444; 
+      color: #ffffff;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-top: 2rem;
+      color: #ffffff;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: #ffffff;
+    }
+
+    a {
+      color: #440303;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    hr {
+      width: 180px;
+      margin: 1.5rem auto;
+      border: 1px solid #400202;
+    }
+
+    p {
+      max-width: 700px;
+      margin: 0.8rem auto;
+      line-height: 1.6;
+      color: #f1f1f1;
+    }
+
+    .social-links {
+      margin-top: 1rem;
+    }
+
+    .social-btn {
+      display: inline-block;
+      margin: 0.4rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      font-weight: 600;
+      color: #95625f;
+      background-color: #460202;
+      transition: 0.3s;
+    }
+
+    .social-btn:hover {
+      background-color: #380202;
+    }
+
+    .projects {
+      background-color: #a34444;
+      margin-top: 2rem;
+      padding: 2rem 1.25rem 3rem;
+      border-top: 2px solid #380202;
+    }
+
+    .project-grid {
+      width: min(900px, 100%);
+      margin: 1.5rem auto 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 1rem;
+    }
+
+    .project {
+      background: #4a1410;
+      border-radius: 10px;
+      min-height: 140px;
+      padding: 1.25rem;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0.7rem;
+      box-sizing: border-box;
+      box-shadow: 0 8px 20px rgba(125, 2, 2, 0.22);
+      transition: transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .project:hover,
+    .project:focus-visible {
+      background-color: #8e0d04;
+      transform: translateY(-5px);
+      box-shadow: 0 13px 25px rgba(93, 4, 4, 0.35);
+      text-decoration: none;
+      outline: 2px solid #380202;
+      outline-offset: 3px;
+    }
+
+    .project-icon {
+      font-size: 2.5rem;
+      line-height: 1;
+    }
+
+    .project-name {
+      color: #f0e9ff;
+      font-size: 1.05rem;
+      font-weight: 600;
+      line-height: 1.35;
+    }
+
+    footer {
+      margin-top: 3rem;
+      background-color: #3d0703;
+      color: #791919;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Welcome!</h1>
+
+  <hr />
+  <h2>Gana Said</h2>
+  <p>Computer Science (AI Stream) | Carleton University</p>
+
+  <div class="social-links">
+    <a class="social-btn" href="https://github.com/Jana4said" target="_blank">GitHub</a>
+    <a class="social-btn" href="https://www.linkedin.com/in/jana-said-8a97b72b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn</a>
+  </div>
+
+  <hr />
+  <h2>About Me</h2>
+  <p>
+    I'm a passionate Computer Science student specializing in Artificial Intelligence at Carleton University. 
+    I love building software, exploring data, debugging, and creating real-world projects that combine creativity and logic.
+  </p>
+
+  <section class="projects">
+    <h2>Projects</h2>
+
+    <div class="project-grid">
+      <a class="project" href="https://github.com/Jana4said/AirNote" target="_blank" rel="noopener noreferrer">
+        <span class="project-icon">✍️</span>
+        <span class="project-name">AirNote</span>
+      </a>
+
+      <a class="project" href="https://github.com/Jana4said/RememberMe" target="_blank" rel="noopener noreferrer">
+        <span class="project-icon">🕊️</span>
+        <span class="project-name">RememberMe</span>
+      </a>
+
+      <a class="project" href="https://github.com/Jana4said/Whack-a-Mole-Game" target="_blank" rel="noopener noreferrer">
+        <span class="project-icon">🎮</span>
+        <span class="project-name">Whack-a-Mole Game</span>
+      </a>
+
+      <a class="project" href="https://github.com/Jana4said/COMP2406-AuthDemo-System" target="_blank" rel="noopener noreferrer">
+        <span class="project-icon">🔐</span>
+        <span class="project-name">AuthDemo System</span>
+      </a>
+
+      <a class="project" href="https://github.com/Jana4said/COMP3105-Explinear-vs-Hinge-Loss" target="_blank" rel="noopener noreferrer">
+        <span class="project-icon">📈</span>
+        <span class="project-name">Explinear vs Hinge Loss</span>
+      </a>
+
+      <a class="project" href="https://github.com/Jana4said/COMP3105-Dual-SVM-and-Kernel-Methods" target="_blank" rel="noopener noreferrer">
+        <span class="project-icon">🤖</span>
+        <span class="project-name">Dual SVM &amp; Kernel Methods</span>
+      </a>
+
+      <a class="project" href="https://github.com/Jana4said/CPP-GUI-Panel-System" target="_blank" rel="noopener noreferrer">
+        <span class="project-icon">🧩</span>
+        <span class="project-name">C++ GUI Panel System</span>
+      </a>
+
+      <a class="project" href="https://github.com/Jana4said/Device-Readings-System" target="_blank" rel="noopener noreferrer">
+        <span class="project-icon">📊</span>
+        <span class="project-name">Device Readings System</span>
+      </a>
+
+      <a class="project" href="https://github.com/Jana4said/Memory-Management-in-C" target="_blank" rel="noopener noreferrer">
+        <span class="project-icon">💾</span>
+        <span class="project-name">Memory Management in C</span>
+      </a>
+
+      <a class="project" href="https://github.com/Jana4said/COMP3105-MultiClass-PCA-KMeans" target="_blank" rel="noopener noreferrer">
+        <span class="project-icon">🧠</span>
+        <span class="project-name">Multi-class Classification &amp; PCA</span>
+      </a>
+
+      <a class="project" href="https://github.com/Jana4said/COMP3105-CNN-Image-Classification" target="_blank" rel="noopener noreferrer">
+        <span class="project-icon">🖼️</span>
+        <span class="project-name">CNN Image Classification</span>
+      </a>
+    </div>
+  </section>
+ 
+
+  <footer>
+    © 2026 Gana Said — All Rights Reserved
+  </footer>
+</body>
+</html>
